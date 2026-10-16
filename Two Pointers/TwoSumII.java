@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// for sorted
 public class TwoSumII {
     public static int[] twosum(int[] num, int target) {
         int left = 0 ;
@@ -19,6 +19,8 @@ public class TwoSumII {
         }
         return new int[]{};
     }
+
+// for unsorted we use hashmap
     public static void main(String[] args) {
         int[] num = {1,2,4,7,77};
         int target = 8;
